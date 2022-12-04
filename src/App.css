@@ -1,18 +1,204 @@
-body {
-  background: linear-gradient(rgba(13, 0, 0, 0.213), rgb(8, 93, 121));
+.wrapper{
+    background:#01050b;
+
+    color:#8892b0;  
 }
 
-.wrapper {
-  height: 100vh;
-  max-width: 1000px;
-  margin: auto;
-  font-weight: 400;
-  font-size: large;
+ a {
+
+    text-decoration: none !important;
+  }
+
+ /* Hero section */
+
+.hero {
+   
+    min-height:83vh;
+    }
+
+div.col-md-9.pt-3.mt-5{
+  
+    position: relative;
+    top: 100px;
 }
 
-.wrapper {
-  display: flex;
-  justify-content: space-between;
 
+
+#skill {
+   
+    min-height: 83vh;
+}
+
+
+
+
+.topNav img {
+position: relative;
+filter: grayscale();
+left: -5px;
+}
+
+.topNav{
+    background: rgba(58, 55, 55, 0.344);
+    margin-top: -10px;
+    
+   
+
+}
+
+.topNav .toggle-bar{
+    background: rgba(153, 152, 149, 0.707);
+    color: rgba(27, 207, 231, 0.947);
+
+}
+
+
+.title {
+    font-size: 2rem;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 2rem;
+    letter-spacing: 0.1rem;
+    margin-bottom: 3rem;
+}
+
+.title span {
+    transition:ease-out;
+    border-bottom: 5px solid rgba(31, 225, 219, 0.707);
+    padding: 0.5rem 0.2rem;
+}
+
+div.col-md-6 img{
+    position: relative;
+    left: 135px;
+}
+
+
+div.col-md-6 img{
+    background: rgb(229, 226, 226);
+    border: 5px solid rgb(17, 210, 136);
+    margin-top: 40px;
+  
+}
+
+
+
+.icons {
+    margin-top: 8rem;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+   padding: 5%;
+}
+
+.icons div {
+    margin-bottom: 2rem;
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icons i {
+    font-size: 4rem;
+}
+
+
+/* projects Icons */
+
+i{
+ filter: grayscale();
+ font-size: 1.6rem;
+}
+i:hover{
+    filter: none;
+  
+}
+
+/* Project Images Hober Effects  */
+
+
+.contact i {
+    font-size: 3rem;
+}
+
+
+#arrow {
+    position: fixed;
+    bottom: 80px;
+    right: 30px;
+    font-size: 2rem;
+    background: #d0d1d619;
+    border-radius: 20px;
+    color: rgba(19, 211, 228, 0.789);
+    border-color: #02d5ca;
+    border-style: solid;
+}
+
+
+.main-layout{
+    min-height: 80vh;
+    color: #02d5caad;
+}
+
+.footer{
+    background: rgba(58, 55, 55, 0.344);
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+
+}
+
+
+
+/* Navbar menu CSS */
+
+
+.nav-link :hover{
+    
+    border-radius: 5%;
+    box-shadow: #4857a419;
+    text-decoration-line: underline;
+
+    
+}
+
+
+
+div#basic-navbar-nav.navbar-collapse.collapse.show #rectangle{
+    background: rgba(119, 109, 109, 0.3);
+    padding: 10px;
+    border-style:inset;
+
+  
+
+ 
+}
+
+
+/* .nav-link{
+    
+} */
+
+/* Video CSS */
+/* .showcase video {
+    position:absolute ;
+    width: 260%;
+    left: 10;
+    height: 99%; 
+    opacity: 0.3;
+} */
+
+.showcase video{
+   position: absolute;
+   /* width: 100%; */
+   left: 1px;
+   width: 99%;
+   opacity: 0.4;
+   margin-top: 100px;
+   /* height: 100px; */
+   
+   /* min-height: 100vh; */
 
 }
